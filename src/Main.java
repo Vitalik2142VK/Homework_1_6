@@ -17,17 +17,14 @@ public class Main
     public static void Task2()
     {
         System.out.println("Task2: ");
-        int value = 0;
-        while (value < 10)
+        for (int i = 1; i < 11; i++)
         {
-            value++;
-            System.out.print(value + " ");
+            System.out.print(i + " ");
         }
         System.out.print("\n");
-        while (value > 0)
+        for (int i = 10; i > 0; i--)
         {
-            System.out.print(value + " ");
-            value--;
+            System.out.print(i + " ");
         }
         System.out.print("\n");
         System.out.println("##########");
