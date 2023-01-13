@@ -17,9 +17,11 @@ public class Main
     public static void Task2()
     {
         System.out.println("Task2: ");
-        for (int i = 1; i < 11; i++)
+        int value = 0;
+        while (value < 10)
         {
-            System.out.print(i + " ");
+            value++;
+            System.out.print(value + " ");
         }
         System.out.print("\n");
         for (int i = 10; i > 0; i--)
